@@ -84,8 +84,8 @@ $hover-transition-timing: 95ms;
 
   .#{$prefix}--tableofcontents__sidebar {
     position: sticky;
-    top: 0;
-    z-index: 1;
+    top: 48px;
+    z-index: 8000;
 
     @include carbon--breakpoint('lg') {
       position: inherit;
